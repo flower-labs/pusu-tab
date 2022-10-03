@@ -1,0 +1,35 @@
+{
+    "version": "0.0.1",
+    "name": "pusu-tab",
+    "manifest_version": 2,
+    "description": "pusu-tab 一款帮你更好的使用浏览器的工具",
+    "background": {
+        "scripts": [
+            "js/background.js"
+        ]
+    },
+    "icons": {
+        "48": "icon/48.png",
+        "96": "icon/96.png",
+        "128": "icon/128.png"
+    },
+    "permissions": [
+        "<all_urls>",
+        "tabs",
+        "contextMenus",
+        "storage",
+        "unlimitedStorage",
+        "notifications",
+        "idle",
+        "alarms",
+        "cookies",
+        "webRequest",
+        "webRequestBlocking"
+    ],
+    "browser_action": {
+        "default_icon": "icon/96.png",
+        "default_title": "pusu-tab",
+        "default_popup": "popup.html"
+    },
+    "homepage_url": "https://github.com/xliudaxia/pusu-tab"
+}
